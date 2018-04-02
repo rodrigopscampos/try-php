@@ -16,7 +16,7 @@
 
       <section class="jumbotron text-center">
         <div class="container">
-          <h1 class="jumbotron-heading">Senai</h1>
+          <h1 class="jumbotron-heading">PHP</h1>
           <p class="lead text-muted">Exemplos de algoritmos e conexão com bancos de dados com PHP</p>
         </div>
       </section>
@@ -42,15 +42,16 @@
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
                 <div class="card-body">
-                  <p class="card-text">Consultar MS Sql-Server via BDO</p>
+                  <p class="card-text">Consulta Oracle via DBO</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-outline-secondary" onclick="consultarMsSqlServerViaBDO()">View</button>
+                      <button type="button" class="btn btn-outline-secondary" onclick="consultaOracleViaBDO()">View</button>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
                 <div class="card-body">
@@ -119,9 +120,10 @@
             window.location.href="info.php"
         }
 
-        function consultarMsSqlServerViaBDO() {
-            window.location.href="sql-server.php"
+        function consultaOracleViaBDO() {
+          window.location.href="oracle.php"
         }
+
 
         function consultarMySqlViaBDO() {
             window.location.href="mysql.php"
